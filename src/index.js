@@ -7,10 +7,11 @@ import * as serviceWorker from './serviceWorker';
 // ReactDOM.render(<App />, document.getElementById('root'));
 // import Clock from './p1/Clock'
 // import MyTitle from './p1/MyTitle'
-import Toggle from './components/buttton/Toggle'
+// import Toggle from './components/buttton/Toggle'
+import CommentApp from './components/comment/CommentApp'
 
 ReactDOM.render(
-    <Toggle />,
+    <CommentApp />,
     document.getElementById('root')
 )
 
