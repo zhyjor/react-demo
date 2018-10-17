@@ -8,10 +8,12 @@ import * as serviceWorker from './serviceWorker';
 // import Clock from './p1/Clock'
 // import MyTitle from './p1/MyTitle'
 // import Toggle from './components/buttton/Toggle'
-import CommentApp from './components/comment/CommentApp'
+// import CommentApp from './components/comment/CommentApp'
+import Index from './components/input/Index'
+
 
 ReactDOM.render(
-    <CommentApp />,
+    <Index />,
     document.getElementById('root')
 )
 
